@@ -9,7 +9,7 @@ Fichiers pour GitHub/Vercel :
 - apple-touch-icon.png
 - hot_stamping_v2_setup.sql
 
-Ce pack garde les couleurs et le dessin du logo d'origine, mais remplace le texte "FPM Fine Packaging Manufacturers" par "Hot Stamping".
+Style : fond gris clair, interface gris/noir, logo type marquage avec texte HOT STAMPING uniquement.
 
 Installation :
 1. Dans Supabase > SQL Editor, executer hot_stamping_v2_setup.sql.

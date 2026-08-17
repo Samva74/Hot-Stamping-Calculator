@@ -47,7 +47,6 @@ alter table public.hot_machines enable row level security;
 alter table public.hot_supports enable row level security;
 alter table public.hot_foils enable row level security;
 
--- Safe policy creation
 DO $$
 BEGIN
   IF NOT EXISTS (select 1 from pg_policies where schemaname='public' and tablename='hot_machines' and policyname='hot_machines_read') THEN
